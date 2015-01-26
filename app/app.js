@@ -2,9 +2,9 @@
     'use strict';
     
     angular.module('app', ['itemManager']);
-	
 	angular.module('itemManager', []);
-	var directivesModule = angular.module('itemManager');
+	
+    var directivesModule = angular.module('itemManager');
 	directivesModule.directive('itemManager', itemManager);
 
     itemManager.$inject = [];
