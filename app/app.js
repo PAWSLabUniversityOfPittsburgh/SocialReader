@@ -1,15 +1,15 @@
 (function () {
     'use strict';
     
-    angular.module('app', ['itemManager']);
-	angular.module('itemManager', []);
+    angular.module('app', ['socialReader']);
+	angular.module('socialReader', []);
 	
-    var directivesModule = angular.module('itemManager');
-	directivesModule.directive('itemManager', itemManager);
+    var directivesModule = angular.module('socialReader');
+	directivesModule.directive('socialReader', socialReader);
 
-    itemManager.$inject = [];
+    socialReader.$inject = [];
 
-    function itemManager() {
+    function socialReader() {
         var directive = {
             link: link,
             controller: controller,
