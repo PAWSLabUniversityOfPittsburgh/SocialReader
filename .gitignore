@@ -55,6 +55,3 @@ docs/_build/
 app/bower_components/
 app/components/
 node_modules/
-
-package.json
-.gitignore

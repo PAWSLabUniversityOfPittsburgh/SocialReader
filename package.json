@@ -10,6 +10,8 @@
   },
   "scripts": {
     "postinstall": "bower install",
+
+    "prestart": "npm install; bower update",
     "start": "http-server -a localhost -p 8000 -c-1"
   }
 }
