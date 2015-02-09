@@ -55,3 +55,6 @@ docs/_build/
 app/bower_components/
 app/components/
 node_modules/
+
+bower.json
+.gitignore
