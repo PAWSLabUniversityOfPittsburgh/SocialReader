@@ -10,7 +10,6 @@
     "jquery": "~2.1.1",
     "bootstrap": "~3.1.x",
     "d3": "3.0.8",
-    "angular-load": "0.2.0",
     "SocialReader.Reader": "https://github.com/PAWSLabUniversityOfPittsburgh/SocialReader.Reader.git#release",
     "SocialReader.ReadingCircle": "https://github.com/PAWSLabUniversityOfPittsburgh/SocialReader.ReadingCircle.git#release"
   }
