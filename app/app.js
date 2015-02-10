@@ -4,10 +4,10 @@
     angular.module('app', ['socialReader']);
 	angular.module('socialReader', []);
 	
+    socialReader.$inject = [];
+    
     var directivesModule = angular.module('socialReader');
 	directivesModule.directive('socialReader', socialReader);
-
-    socialReader.$inject = [];
 
     function socialReader() {
         var directive = {
