@@ -34,6 +34,14 @@
             vm.editItem = editItem;
             vm.respondToUpdatesWith = respondToUpdatesWith;
             vm.respondToEditsWith = respondToEditsWith;
+
+            vm.getUser = function(){
+                return "gat23"
+            }
+
+            vm.getGroup = function(){
+                return "gat23"
+            }
                 
             function updateItem(item) {
                 vm.updateMethod(item);
