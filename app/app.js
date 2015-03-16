@@ -40,7 +40,7 @@
             }
 
             vm.getGroup = function(){
-                return "gat23"
+                return "ISD2014Spring"
             }
                 
             function updateItem(item) {
