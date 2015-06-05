@@ -22,3 +22,7 @@ h1 {
 #main {
 	margin-top:20px;
 }
+
+#comparison{
+	display: none;
+}

@@ -1,6 +1,15 @@
 <div class="">
 
-    <div reading-circle></div>
-    <div reader></div>
-    
+    <div class="sidebar col-md-4">
+        <div key="'main'" reading-circle></div>
+        <div id="compare">
+            <button onClick="$('#comparison').toggle()">Compare 1</button>
+            <button onClick="$('#comparison').toggle()">Compare 2</button>
+        </div>
+        <div key="'comparison'" id="comparison" reading-circle></div>
+    </div>
+    <div class="main col-md-8">
+        <div reader></div>
+    </div>
+  
 </div>
